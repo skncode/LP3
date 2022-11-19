@@ -13,5 +13,11 @@ int fib(int n){
 }
 
 int main(){
-
+  int n;
+  cout<<"How many fibonacci numbers do you want ?"<<endl;
+  cin>>n;
+  
+  for(int i=1; i<=5;i++){
+      cout<<fib(i)<<" ";
+  }
 }
