@@ -17,7 +17,7 @@ int main(){
   cout<<"How many fibonacci numbers do you want ?"<<endl;
   cin>>n;
   
-  for(int i=1; i<=n;i++){
+  for(int i=0; i<n;i++){
       cout<<fib(i)<<" ";
   }
 }
