@@ -38,7 +38,7 @@ int x = row;
     
     x = row;
     y = col;
-    while(x<col && y>=0){
+    while(x<N && y>=0){
         if(board[x][y] == 1)
             return false;
         y--;
